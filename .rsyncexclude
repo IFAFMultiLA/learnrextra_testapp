@@ -1,0 +1,15 @@
+.git*
+renv/library/
+renv/sandbox/
+renv/staging/
+.Rhistory
+.Rproj.user/
+*.Rproj
+.rsyncexclude
+Makefile
+*.swp
+*_files/
+*.html
+README.md
+depwatcher.sh
+adaptivelearnr_test.Rmd

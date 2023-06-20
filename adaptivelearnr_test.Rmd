@@ -1,0 +1,78 @@
+---
+title: "Test tutorial for the adaptivelearnr package"
+runtime: shiny_prerendered
+author: Markus Konrad
+email: markus.konrad@htw-berlin.de
+date: "`r format(Sys.time(), '%d.%m.%Y')`"
+output:
+    adaptivelearnr::tutorial:
+        language: en
+        apiserver: http://localhost:8000/
+---
+
+```{r setup, include=FALSE}
+require(RAppArmor)     # necessary on server
+library(learnr)        # for quizzes, code exercises, etc.
+library(gradethis)     # for evaluating code exercises
+library(shiny)         # for interactive elements
+
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Page 1 – quizzes and code exercises
+
+Example quiz with single correct choice.
+
+```{r quiz1}
+question("Example question.",
+  answer("Example answer 1."),
+  answer("Example answer 2 (correct).", correct = TRUE),
+  answer("Example answer 3."),
+  allow_retry = TRUE
+)
+```
+
+Example quiz with multiple correct choices.
+
+```{r quiz2}
+question("Example question.",
+  answer("Example answer 1 (correct).", correct = TRUE),
+  answer("Example answer 2."),
+  answer("Example answer 3 (correct).", correct = TRUE),
+  allow_retry = TRUE
+)
+```
+
+**Example code exercise.** Fill in the gaps to generate 100 samples from a normal distribution with mean $\mu=-1$ and
+standard deviation $\sigma=3$. Report mean and standard deviation of the drawn samples.
+
+```{r code1, exercise=TRUE, exercise.timelimit=5, exercise.blanks = "___+"}
+x <- ___(100, mean = -1, sd = 3)  # draw samples
+c(___, ___)  # report mean and SD
+```
+
+```{r code1-solution}
+x <- rnorm(100, mean = -1, sd = 3)  # draw samples
+c(mean(x), sd(x))  # report mean and SD
+```
+
+```{r code1-check}
+grade_this_code()
+```
+
+
+## Page 2 – Shiny inputs
+
+
+```{r}
+checkboxInput("checkbox_input_test", "checkbox input test")
+dateInput("date_input_test", "date input test")
+dateRangeInput("date_range_input_test", "date range input test")
+numericInput("numeric_input_test", "num. input test", 0)
+radioButtons("radio_buttons_test", "radio buttons test", c("foo", "bar"))
+selectInput("select_input_test", "select input test", c("foo", "bar"))
+sliderInput("slider_input_test", "slider input test", 1, 10, 5, step = 1)
+textInput("text_input_test", "text input test")
+textAreaInput("text_input_test", "text area input test")
+```
+
