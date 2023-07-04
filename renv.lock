@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "4.3.0",
+    "Version": "4.3.1",
     "Repositories": [
       {
         "Name": "CRAN",
@@ -32,7 +32,7 @@
     },
     "adaptivelearnr": {
       "Package": "adaptivelearnr",
-      "Version": "0.3.1",
+      "Version": "0.3.2",
       "Source": "Local",
       "RemoteType": "local",
       "RemoteUrl": "../adaptivelearnr",
@@ -40,7 +40,7 @@
         "htmltools",
         "learnr"
       ],
-      "Hash": "316d252940ea5db6dcafc0017994d2e6"
+      "Hash": "fb3f4f7552dff1a79d8452309a352564"
     },
     "backports": {
       "Package": "backports",
