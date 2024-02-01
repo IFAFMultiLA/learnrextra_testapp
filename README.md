@@ -1,18 +1,18 @@
-# Tutorial content examples for *adapativelearnr*
+# Tutorial content examples for *learnrextra*
 
 Markus Konrad <markus.konrad@htw-berlin.de>, June 2023
 
 ## Description
 
 This application is for showing and testing features of the
-[adaptivelearnr](https://github.com/IFAFMultiLA/adaptivelearnr) package, especially in terms of tracking and
+[learnrextra](https://github.com/IFAFMultiLA/learnrextra) package, especially in terms of tracking and
 communication with the web API.
 
 ## Installation
 
 1. install the [renv](https://rstudio.github.io/renv/index.html) package
-2. clone the main branch of the [adaptivelearnr repository](https://github.com/IFAFMultiLA/adaptivelearnr) to the folder
-   `../adaptivelearnr`
+2. clone the main branch of the [learnrextra repository](https://github.com/IFAFMultiLA/learnrextra) to the folder
+   `../learnrextra`
 3. call `renv::restore()` to install all dependencies
 
 ## Local development

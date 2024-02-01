@@ -12,4 +12,4 @@ Makefile
 *.html
 README.md
 depwatcher.sh
-adaptivelearnr_test.Rmd
+learnrextra_test.Rmd

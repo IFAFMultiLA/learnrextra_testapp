@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "4.3.1",
+    "Version": "4.3.2",
     "Repositories": [
       {
         "Name": "CRAN",
@@ -19,6 +19,17 @@
       ],
       "Hash": "470851b6d5d0ac559e9d01bb352b4021"
     },
+    "RAppArmor": {
+      "Package": "RAppArmor",
+      "Version": "3.2.4",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "OS_type": "unix",
+      "Requirements": [
+        "unix"
+      ],
+      "Hash": "3a0db9c6e8ac81612c367107effad35e"
+    },
     "Rcpp": {
       "Package": "Rcpp",
       "Version": "1.0.10",
@@ -29,18 +40,6 @@
         "utils"
       ],
       "Hash": "e749cae40fa9ef469b6050959517453c"
-    },
-    "adaptivelearnr": {
-      "Package": "adaptivelearnr",
-      "Version": "0.3.2",
-      "Source": "Local",
-      "RemoteType": "local",
-      "RemoteUrl": "../adaptivelearnr",
-      "Requirements": [
-        "htmltools",
-        "learnr"
-      ],
-      "Hash": "fb3f4f7552dff1a79d8452309a352564"
     },
     "backports": {
       "Package": "backports",
@@ -401,6 +400,21 @@
       ],
       "Hash": "dc1688afc60662f96f6f847f7bf86402"
     },
+    "learnrextra": {
+      "Package": "learnrextra",
+      "Version": "0.6.10",
+      "Source": "Local",
+      "RemoteType": "local",
+      "RemoteUrl": "../learnrextra",
+      "Requirements": [
+        "fs",
+        "htmltools",
+        "jsonlite",
+        "learnr",
+        "shiny"
+      ],
+      "Hash": "f09e69cd08e832df8f6388e474107f3b"
+    },
     "lifecycle": {
       "Package": "lifecycle",
       "Version": "1.0.3",
@@ -537,13 +551,13 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "0.17.3",
+      "Version": "1.0.3",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "utils"
       ],
-      "Hash": "4543b8cd233ae25c6aba8548be9e747e"
+      "Hash": "41b847654f567341725473431dd0d5ab"
     },
     "rlang": {
       "Package": "rlang",
@@ -713,6 +727,14 @@
         "xfun"
       ],
       "Hash": "e4e357f28c2edff493936b6cb30c3d65"
+    },
+    "unix": {
+      "Package": "unix",
+      "Version": "1.5.6",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "OS_type": "unix",
+      "Hash": "5f5ad3da930cef6e81747ade5332aa26"
     },
     "utf8": {
       "Package": "utf8",

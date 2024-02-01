@@ -1,11 +1,11 @@
 ---
-title: "Test tutorial for the adaptivelearnr package"
+title: "Test tutorial for the learnrextra package"
 runtime: shiny_prerendered
 author: Markus Konrad
 email: markus.konrad@htw-berlin.de
 date: "`r format(Sys.time(), '%d.%m.%Y')`"
 output:
-    adaptivelearnr::tutorial:
+    learnrextra::tutorial:
         language: en
         apiserver: http://localhost:8000/
 ---
