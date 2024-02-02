@@ -11,5 +11,4 @@ Makefile
 *_files/
 *.html
 README.md
-depwatcher.sh
 learnrextra_test.Rmd
