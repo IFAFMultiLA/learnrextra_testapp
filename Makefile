@@ -5,7 +5,7 @@ RSYNC_COMMON := -rcv --exclude-from=.rsyncexclude
 
 devserver:
 	-rm learnrextra_test.html
-	R -e 'renv::install("../learnrextra");rmarkdown::run("learnrextra_test.Rmd", shiny_args = list(port = 8001, launch.browser = FALSE))'
+	R -e 'renv::install("../../learnrextra");rmarkdown::run("learnrextra_test.Rmd", shiny_args = list(port = 8001, launch.browser = FALSE))'
 
 sync: deploymentfiles
 	rsync $(RSYNC_COMMON) . $(SERVER_APP)
