@@ -237,15 +237,15 @@
     },
     "gradethis": {
       "Package": "gradethis",
-      "Version": "0.2.13.9000",
+      "Version": "0.2.14",
       "Source": "GitHub",
-      "Remotes": "rstudio/ggcheck, rstudio/learnr",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
-      "RemoteRepo": "gradethis",
       "RemoteUsername": "rstudio",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "373b2d24c3b9067616188908ad2507a6166fe448",
+      "RemoteRepo": "gradethis",
+      "RemoteRef": "main",
+      "RemoteSha": "502af700437db1b648a35200ce7b940db0cc3d45",
+      "Remotes": "rstudio/ggcheck, rstudio/learnr",
       "Requirements": [
         "R",
         "checkmate",
@@ -263,7 +263,7 @@
         "waldo",
         "withr"
       ],
-      "Hash": "0d631bf90b5328ec28d7f9c0fe401353"
+      "Hash": "0a4de1a42e85535e51fff567a016d71c"
     },
     "highr": {
       "Package": "highr",
@@ -372,9 +372,14 @@
     },
     "learnr": {
       "Package": "learnr",
-      "Version": "0.11.4",
-      "Source": "Repository",
-      "Repository": "CRAN",
+      "Version": "0.11.5.9000",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "rstudio",
+      "RemoteRepo": "learnr",
+      "RemoteRef": "main",
+      "RemoteSha": "aeb8144f5335a1132dbb1c0a0302fd2f3e94b875",
       "Requirements": [
         "checkmate",
         "digest",
@@ -398,14 +403,18 @@
         "utils",
         "withr"
       ],
-      "Hash": "dc1688afc60662f96f6f847f7bf86402"
+      "Hash": "99a564a8ee391d8e0e29736597be10b9"
     },
     "learnrextra": {
       "Package": "learnrextra",
       "Version": "0.6.10",
-      "Source": "Local",
-      "RemoteType": "local",
-      "RemoteUrl": "../learnrextra",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "IFAFMultiLA",
+      "RemoteRepo": "learnrextra",
+      "RemoteRef": "main",
+      "RemoteSha": "c794490c5755b13ce6ab565ea0b46b9a4ed4c5aa",
       "Requirements": [
         "fs",
         "htmltools",
@@ -413,7 +422,7 @@
         "learnr",
         "shiny"
       ],
-      "Hash": "f09e69cd08e832df8f6388e474107f3b"
+      "Hash": "5c3aaa1976506d5b3fa783b4f314a8ef"
     },
     "lifecycle": {
       "Package": "lifecycle",
