@@ -76,3 +76,31 @@ textInput("text_input_test", "text input test")
 textAreaInput("text_input_test", "text area input test")
 ```
 
+::: tracking_consent_text
+
+This is an example tracking consent information text.
+
+The following data is being recorded while interacting with this website:
+
+<ul>
+    <li>information on your browser (browser software, window dimensions)</li>
+    <li>start and end time when using this website</li>
+    <li class="trackingdata-chapters">changes between pages</li>
+    <li>information on quiz trials (given answers, results)</li>
+    <li>information on code exercises (submitted code, result, success)</li>
+    <li class="trackingdata-inputs">changes to input elements (e.g. sliders for interactive graphics)</li>
+    <li class="trackingdata-mouse">mouse movements</li>
+    <li class="trackingdata-mouse">page scrolls</li>
+    <li class="trackingdata-mouse">clicks</li>
+</ul>
+
+
+:::
+
+::: data_protection_text
+
+This is an example data protection text.
+
+...
+
+:::
