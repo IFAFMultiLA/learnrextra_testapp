@@ -265,6 +265,16 @@
       ],
       "Hash": "0a4de1a42e85535e51fff567a016d71c"
     },
+    "here": {
+      "Package": "here",
+      "Version": "1.0.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "rprojroot"
+      ],
+      "Hash": "24b224366f9c2e7534d2344d10d59211"
+    },
     "highr": {
       "Package": "highr",
       "Version": "0.10",
@@ -407,22 +417,19 @@
     },
     "learnrextra": {
       "Package": "learnrextra",
-      "Version": "0.6.10",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteUsername": "IFAFMultiLA",
-      "RemoteRepo": "learnrextra",
-      "RemoteRef": "main",
-      "RemoteSha": "c794490c5755b13ce6ab565ea0b46b9a4ed4c5aa",
+      "Version": "0.7.0",
+      "Source": "Local",
+      "RemoteType": "local",
+      "RemoteUrl": "../../learnrextra",
       "Requirements": [
         "fs",
+        "here",
         "htmltools",
         "jsonlite",
         "learnr",
         "shiny"
       ],
-      "Hash": "5c3aaa1976506d5b3fa783b4f314a8ef"
+      "Hash": "074abf7f001f6afb72115c201cc52894"
     },
     "lifecycle": {
       "Package": "lifecycle",
